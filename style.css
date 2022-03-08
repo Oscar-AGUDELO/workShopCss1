@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  font-family: verdana;
+}
+
+body {
+  margin: 0;
+  
+  background-color: #f2f2f2;
+}
+
+nav {
+  background-color: #f76c6c;
+  display: flex;
+  max-height: 6rem;
+  min-width: 100vp;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1200px) {
+  nav {
+    background-color: #f76c6c;
+    display: flex;
+    max-height: 3rem;
+    min-width: 100vp;
+    justify-content: space-between;
+    align-items:center;
+  }
+}
+
+
+
+
+h2 {
+  color: white;
+}
+
+@media screen and (min-width: 1200px) {
+  h2 {
+    margin-left:1rem ;
+  }
+}
+ul {  
+}
+
+@media screen and (min-width: 1200px) {
+  ul {
+    display: flex;
+    flex-direction: row;
+    padding-inline-start: 0;
+  }
+}
+
+
+li {
+  color: white;
+  font-weight:bold;
+  list-style:none;
+  margin-right: 1rem;
+}
+
+@media screen and (min-width: 1200px) {
+  li {
+    margin-right: 1rem;
+  }
+}
+
+h1 {
+  background-image: url(https://picsum.photos/seed/picsum/360/240);
+  background-size: cover;
+  color: white;
+  display: flex;
+  font-size: clamp(2rem, 5vw, 4rem);
+  height: 15rem;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.65);
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+@media screen and (min-width: 1200px) {
+  main {
+    margin: 2rem 15rem;
+  }
+}
+
+.articles {
+  margin: 0 1rem 0 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+@media screen and (min-width: 1200px) {
+  .articles {
+    margin: 0 1rem 0 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+.article-1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+@media screen and (min-width: 1200px) {
+  .article-1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+}
+article {
+  margin: 0.25rem;
+  border-radius: 7px;
+  box-shadow: 3px 3px 3px rgb(194, 194, 194);
+  background-color: white;
+
+}
+h4{
+  color: #f76c6c;
+  margin-left: 0.5rem;
+}
+
+
+footer {
+  background: #f76c6c;
+  margin-top: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+footer p{
+  margin: 0 0 0 1rem;
+}
+
+

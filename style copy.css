@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  font-family: verdana;
+}
+
+body {
+  margin: 0;
+}
+nav {
+  background-color: #f76c6c;
+  display: inline-block;
+  max-height: 6em;
+  min-width: 100%;
+}
+h2 {
+  color: white;
+
+  margin: 0.2em;
+}
+ul {
+  margin-top: 0em;
+  display: inline-block;
+  margin: 0em 0em 0.5em -2em;
+}
+li {
+  display: inline;
+  color: white;
+  margin-right: 0.5em;
+  font-weight: medium;
+}
+/* calvin */
+h1 {
+  display: block;
+  color: white;
+  background-image: url(https://picsum.photos/seed/picsum/1000/200);
+  background-size: cover;
+  font-size: 100px;
+  text-align: center;
+  height: 400px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 100px;
+}
+
+/* Olivier : About us */
+section {
+  background-color: #f2f2f2;
+  padding-top: 20px;
+}
+
+section p {
+  font-weight: 500;
+  size: 0.8em;
+  line-height: 1.5;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+h3 {
+  font-size: 1.6em;
+  text-align: left;
+  margin-left: 50px;
+}
+/* Olivier : About us */
+
+/* sylvain featured */
+div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+article {
+  width: 15em;
+  min-height: 4em;
+  border-radius: 7px;
+  box-shadow: 3px 3px 3px rgb(194, 194, 194);
+  background-color: white;
+  margin: 10px;
+}
+
+main {
+  background-color: #f2f2f2;
+}
+
+footer {
+  background: #f76c6c;
+  height: 4em;
+  width: 100%;
+  font-weight: bold;
+  display: inline-block;
+  position: absolute;
+}
